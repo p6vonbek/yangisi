@@ -17,6 +17,7 @@ const HomesInfo:NextPage=()=>{
             <div>
             <Link  href={'/Home'}><button style={{width:'200px',height:'70px',border:'4px solid blue',borderRadius:'10px',backgroundColor:'blue',fontSize:'20px',color:'white',marginTop:'30px'}}>Back →</button></Link>
             </div>
+            
         </div>
         </div>
         </div>

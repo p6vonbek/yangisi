@@ -12,5 +12,6 @@ const HowlLong:FC=()=> {
             </nav>
        </header>
     )
+    
 }
 export default HowlLong

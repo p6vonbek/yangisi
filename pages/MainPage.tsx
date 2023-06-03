@@ -7,7 +7,6 @@ import Link from "next/link";
 const MainPage:NextPage=()=>{
     return(
         <>
-        
         <div>
         <div  >
             <Img className="R" src={R} alt="uy rasmi" style={{ width:"100%",height:'900px'}}/>  

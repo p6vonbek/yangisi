@@ -166,6 +166,7 @@ Show program</button></Link>
                     <div style={{margin:'50px 150px 50px 150px'}}>
                         <Link href={'/HomesInfo'}><button style={{width:'200px',fontSize:'20px',height:'80px',border:'5px solid white',borderRadius:'5px',backgroundColor:'#FFFFF',boxShadow:'0px 8px 83px'}}>Turnkey events</button></Link>
                     </div>
+                    
                 </div>
                 <div>
                 <div  style={{marginTop:'40px',display:'flex',justifyContent:'center'}}>

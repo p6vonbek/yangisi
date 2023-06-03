@@ -11,7 +11,6 @@ import Footer from '../public/rasmlar/footer 1400.jpg'
 import Img from 'next/image'
  
 
-
 const Like:NextPage=()=>{
     return(
         <> 

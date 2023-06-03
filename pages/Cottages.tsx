@@ -12,6 +12,7 @@ const Cottages:NextPage=()=>{
         <> 
         <Header/>
         <div >
+            
             <div style={{width:'100%',height:'300px',border:'2px solid palegoldenrod',borderRadius:'20px',display:'flex',textAlign:'center',backgroundColor:'palegoldenrod',marginTop:'20px'}}>
                 <Img src={R} alt="#" style={{width:'300px',height:'300px'}}/>
             <div style={{marginLeft:'200px',display:'flex'}}>
