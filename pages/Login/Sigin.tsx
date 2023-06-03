@@ -3,7 +3,7 @@ import Header from "../Header";
 import Link from "next/link";
 
 
-const Sigin:NextPage=()=>{
+const  Sigin:NextPage=()=>{
 return(
     <header style={{backgroundColor:'blanchedalmond'}}>
         <Header/>

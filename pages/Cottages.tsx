@@ -9,7 +9,7 @@ import Footer from '../public/rasmlar/footer 1400.jpg'
 
 const Cottages:NextPage=()=>{
     return(
-        <>
+        <> 
         <Header/>
         <div >
             <div style={{width:'100%',height:'300px',border:'2px solid palegoldenrod',borderRadius:'20px',display:'flex',textAlign:'center',backgroundColor:'palegoldenrod',marginTop:'20px'}}>

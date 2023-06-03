@@ -14,7 +14,7 @@ import Img from 'next/image'
 
 const Like:NextPage=()=>{
     return(
-        <>
+        <> 
         <Header/>
         <div>
         <div style={{border:'4px solid palegreen',borderRadius:'10px',backgroundColor:'palegreen',marginTop:'31px'}}>

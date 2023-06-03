@@ -13,7 +13,7 @@ const MainPage:NextPage=()=>{
             <Img className="R" src={R} alt="uy rasmi" style={{ width:"100%",height:'900px'}}/>  
             
           </div>
-          <div style={{display:'flex',}}>
+          <div  style={{display:'flex',}}>
             <Link href={'/Home'}><button style={{border:'4px solid blue',borderRadius:'10px', color:'white',
             width:'500px',height:'151px',backgroundColor:'blue',marginLeft:'600px',fontSize:'25px',position:'absolute',zIndex:111}}>Please click →            </button></Link>
           </div>

@@ -5,7 +5,7 @@ import Styles from "../pages/Hedrs/Headrs.module.scss"
 
 
 const Header:FC=()=>{
-    return<header className={Styles.header}>
+    return<header  className={Styles.header}>
         <nav>
             <Link className={Styles.link}  href={'/'}>Main page</Link>
             <Link className={Styles.link}  href={'/Home'}>Home</Link>

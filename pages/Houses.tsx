@@ -13,7 +13,7 @@ import Footer from '../public/rasmlar/footer 1400.jpg'
 import Img from 'next/image'
 import Yordam from '../styles/yordam.module.css'
 
-const About:NextPage=()=>{
+const About:NextPage=()=> {
     return(
         <>
         <Header/>

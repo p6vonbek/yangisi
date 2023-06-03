@@ -3,7 +3,7 @@ import Link from "next/link";
 import Styles from "../pages/Hedrs/Headrs.module.scss"
 
 
-const HowlLong:FC=()=>{
+const HowlLong:FC=()=> {
     return(
         <header  style={{marginLeft:'500px'}}>
             <nav>
