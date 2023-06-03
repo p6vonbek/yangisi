@@ -1,0 +1,36 @@
+{
+  "name": "imtihon",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.12.2",
+    "@trendyol-js/react-carousel": "^3.0.2",
+    "@types/node": "18.16.2",
+    "@types/react": "18.2.0",
+    "@types/react-dom": "18.2.1",
+    "axios": "^1.4.0",
+    "carousel": "^0.0.3",
+    "css": "^3.0.0",
+    "next": "13.3.1",
+    "react": "^18.2.0",
+    "react-carousel-minimal": "^1.4.1",
+    "react-dom": "^18.2.0",
+    "react-gallery-carousel": "^0.4.0",
+    "react-multi-carousel": "^2.8.4",
+    "react-router-dom": "^6.11.2",
+    "react-snap-carousel": "^0.3.2",
+    "sass": "^1.62.1",
+    "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "scss": "^0.2.4"
+  }
+}
