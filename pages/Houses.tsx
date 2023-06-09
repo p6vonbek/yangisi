@@ -18,7 +18,7 @@ const About:NextPage=()=>{
         <>
         <Header/>
         <div>
-            <div style={{border:'4px solid blue',borderRadius:'10px',backgroundColor:'blue',}}>
+            <div style={{border:'4px solid palegoldenrod',borderRadius:'10px',backgroundColor:'palegoldenrod',}}>
             <div >
                 <div style={{display:"flex",justifyContent:'center'}}>
             <Img  src={R} alt="uy rasmi" style={{width:'700px', padding:'3px',height:'560px'}}/> 
@@ -31,7 +31,8 @@ const About:NextPage=()=>{
             <Img className={Yordam.img3}  src={Oshxona} alt="Oshxona" style={{ marginLeft:'50px', padding:'3px'}}/>
             <Img className={Yordam.img4}  src={Fitns} alt="Fitns" style={{ marginLeft:'50px', padding:'3px'}}/>
 
-            </div> </div>
+            </div> 
+            </div>
             </div>
              <div style={{marginTop:'50px',display:'flex',justifyContent:'center'}}>
                 <div>
@@ -44,7 +45,7 @@ const About:NextPage=()=>{
              </div>
             </div>
             </div>
-            <div style={{border:'4px solid green',borderRadius:'10px',backgroundColor:'green',marginTop:'30px'}}>
+            <div style={{border:'4px solid royalblue',borderRadius:'10px',backgroundColor:'royalblue',marginTop:'30px'}}>
             <div >
                 <div style={{display:"flex",justifyContent:'center'}}>
             <div style={{marginTop:'150px'}}>
