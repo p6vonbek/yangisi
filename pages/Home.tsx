@@ -13,12 +13,23 @@ import UyBasseyn from '../public/rasmlar/footer 1400.jpg';
 import Link from "next/link";
 import Yordam from '../styles/yordam.module.css'
 import Users from './Users'
+import Icon from './Burger/Icon'
+import Icon2 from './Burger/Icon2'
+import Icon3 from './Burger/Icon3'
+import Icon4 from './Burger/Icon4'
+
 
 const HomePage:NextPage=()=>{
+
     return(
         <header>
      <Header/>
-     <div>
+     <div style={{display:'flex',justifyContent:'space-around',marginTop:'30px'}}>
+     <Icon4/>
+     <Icon3/>
+     <Icon/>
+     <Icon2/>
+     </div>
      <div>
     <div style={{display:'flex',justifyContent:'space-around'}}>
             <div >
@@ -43,7 +54,6 @@ const HomePage:NextPage=()=>{
             <Img className="R" src={R} alt="uy rasmi" style={{width:'100%',height:'900px',}}/>  
             
           </div>
-        </div>
         </div>
         <div style={{backgroundColor:'palegoldenrod'}}>
             <div style={{marginTop:'100px',}}>

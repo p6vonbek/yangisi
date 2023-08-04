@@ -1,20 +1,21 @@
 import Link from "next/link";
 import { FC } from "react";
 import Styles from "../pages/Hedrs/Headrs.module.scss"
-
+import Burger from "./Burger/Burger";
 
 
 const Header:FC=()=>{
-    return<header  className={Styles.header}>
-        <nav>
-            
+    return<header  className={Styles.header} >
+        <nav style={{display:'flex'}}>
+ 
             <Link className={Styles.link}  href={'/'}>Main page</Link>
             <Link className={Styles.link}  href={'/Home'}>Home</Link>
             <Link className={Styles.link}  href={'/Houses'}>Houses</Link>
             <Link className={Styles.link}  href={'/Cottages'}>Cottages</Link>
             <Link className={Styles.link}  href={'/HomesInfo'}>Homes Info</Link>
             <Link className={Styles.link}  href={'/Like'}>❤️</Link>
-            <Link className={Styles.link}  href={'./Login/Login'}>Login.</Link>
+            <Link className={Styles.link}  href={'./Login/Login'}>Login</Link>
+            <Burger/>
         </nav>
     </header>
 }

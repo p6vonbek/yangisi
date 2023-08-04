@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Login:NextPage=()=>{
 return(
-<header  style={{backgroundColor:'blanchedalmond'}}>
+<header  style={{backgroundColor:'blanchedalmond',width:'100%',height:'100%'}}>
         <Header/>
         <div >
             <input placeholder="name"  type="text"  style={{fontSize:'35px',textAlign:"center", marginLeft:'700px',marginTop:'150px',boxShadow:'0px 1px 24px 4px'}}/><br />
