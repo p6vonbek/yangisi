@@ -152,7 +152,47 @@ const HomePage:NextPage=()=>{
             <div style={{marginTop:'50px', marginLeft:'25px',width:'100%'}}>
             <Users />
             </div>
-            <div>
+            <div style={{display:'flex',justifyContent:'center'}}>
+                <div style={{marginTop:'150px', marginLeft:'15px'}}>
+            <Img className={Yordam.img} src={Uy6} alt="Basseyn" style={{border:'2px solid white',borderRadius:'15px',width:'500px',height:'400px'}}/>
+            <div  style={{marginTop:'10px',marginLeft:'90px'}}> 
+            <div style={{display:'flex'}}>
+            <h3>Home information on the pass  ↓</h3>
+            <Link href={'/Like'} style={{textDecoration:'none',marginTop:"20px",marginLeft:"20px"}}>❤️</Link>
+            </div> 
+            <button style={{width:'150px', height:'50px',border:'3px solid blue',marginLeft:'80px',borderRadius:'5px',backgroundColor:'blue',marginTop:'20px'}}>
+               <Link href={'/Houses'} style={{color:'white', fontSize:'20px', textDecoration:'none'}}>Batch  😎</Link> 
+               </button>
+
+                </div>  
+                </div>
+                <div style={{marginTop:'150px',marginLeft:'100px'}}>
+            <Img className={Yordam.img1} src={Uy7} alt="Basseyn" style={{border:'2px solid white',borderRadius:'15px',width:'500px',height:'400px'}}/>
+            <div  style={{marginTop:'10px',marginLeft:'90px'}}> 
+            <div style={{display:'flex'}}>
+            <h3>Home information on the pass  ↓</h3>
+            <Link href={'/Like'} style={{textDecoration:'none',marginTop:"20px",marginLeft:"20px"}}>❤️</Link>
+            </div> 
+            <button style={{width:'150px', height:'50px',border:'3px solid blue',marginLeft:'80px',borderRadius:'5px',backgroundColor:'blue',marginTop:'20px'}}>
+               <Link href={'/Houses'} style={{color:'white', fontSize:'20px', textDecoration:'none'}}>Batch  😎</Link> 
+               </button>
+
+                </div>  
+                </div>
+                <div style={{marginTop:'150px',marginLeft:'100px', }}>
+            <Img className={Yordam.img2} src={Uy8} alt="Basseyn" style={{border:'2px solid white',borderRadius:'15px',width:'500px',height:'400px'}}/>
+            <div  style={{marginTop:'10px',marginLeft:'90px'}}>
+                 <div style={{display:'flex'}}>
+                 <h3 >Home information on the pass  ↓</h3>
+             <Link href={'/Like'} style={{textDecoration:'none',marginTop:"20px",marginLeft:"40px",color:'white'}}>❤️</Link>
+             </div>
+ <button style={{width:'150px', height:'50px',border:'3px solid blue',marginLeft:'80px',borderRadius:'5px',backgroundColor:'blue',marginTop:'20px'}}>
+                <Link href={'/Houses'} style={{color:'white', fontSize:'20px', textDecoration:'none'}}>Batch 😎</Link> 
+                </button>
+                 </div>  
+                </div> 
+            </div>
+            <div style={{marginTop:'30px'}}>
                 <Tabl/>
             </div>
             <div> 
