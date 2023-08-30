@@ -9,13 +9,13 @@ import Link from "next/link";
 
 
 const options = [
-  <Link  href={'/'}>Main page</Link>,
-  <Link  href={'/Home'}>Home</Link>,
-  <Link  href={'/Houses'}>Houses</Link>,
-  <Link  href={'/Cottages'}>Cottages</Link>,
-  <Link  href={'/Homes Info'}>Homes Info</Link>,
-  <Link  href={'/Link'}>❤️</Link>,
-  <Link  href={'./Login/Login'}>Login</Link>,
+  <Link style={{marginLeft:'15px',marginTop:'20px', textDecoration:'none', fontSize:'20px'}} href={'/'}>Main page</Link>,
+  <Link style={{marginLeft:'15px',marginTop:'30px', textDecoration:'none', fontSize:'20px'}} href={'/Home'}>Home</Link>,
+  <Link style={{marginLeft:'15px',marginTop:'40px', textDecoration:'none', fontSize:'20px'}} href={'/Houses'}>Houses</Link>,
+  <Link style={{marginLeft:'15px',marginTop:'50px', textDecoration:'none', fontSize:'20px'}} href={'/Cottages'}>Cottages</Link>,
+  <Link style={{marginLeft:'15px',marginTop:'60px', textDecoration:'none', fontSize:'20px'}} href={'/HomesInfo'}>Homes Info</Link>,
+  <Link style={{marginLeft:'15px',marginTop:'70px', textDecoration:'none', fontSize:'20px'}} href={'/Link'}>❤️</Link>,
+  <Link style={{marginLeft:'15px',marginTop:'80px', textDecoration:'none', fontSize:'20px'}} href={'./Login/Login'}>Login</Link>,
 
 ];
 

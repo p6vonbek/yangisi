@@ -10,7 +10,7 @@ export default function Oy() {
       disablePortal
       id="combo-box-demo"
       options={top12}
-      sx={{ width: 300 }}
+      sx={{ width: 300}}
       renderInput={(params) => <TextField {...params} label=" Oy" />}
     />
 

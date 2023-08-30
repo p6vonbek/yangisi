@@ -17,6 +17,7 @@ import Icon from './Burger/Icon'
 import Icon2 from './Burger/Icon2'
 import Icon3 from './Burger/Icon3'
 import Icon4 from './Burger/Icon4'
+import Tabl from './Tabl'
 
 
 const HomePage:NextPage=()=>{
@@ -24,14 +25,14 @@ const HomePage:NextPage=()=>{
     return(
         <header>
      <Header/>
-     <div style={{display:'flex',justifyContent:'space-around',marginTop:'30px'}}>
+     <div style={{display:'flex',justifyContent:'space-around',marginTop:'30px',}}>
      <Icon4/>
      <Icon3/>
      <Icon/>
      <Icon2/>
      </div>
      <div>
-    <div style={{display:'flex',justifyContent:'space-around'}}>
+    <div style={{display:'flex',justifyContent:'space-around',}}>
             <div >
                 <div style={{textAlign:'center'}}>
                     <h1 style={{position:'absolute',zIndex:12 ,marginTop:'300px',marginLeft:'-100px'}}>Welcome to our <br /> website</h1>
@@ -51,18 +52,18 @@ const HomePage:NextPage=()=>{
                 </div>
         </div>
            <div>
-            <Img className="R" src={R} alt="uy rasmi" style={{width:'100%',height:'900px',}}/>  
+            <Img className="R" src={R} alt="uy rasmi" style={{width:'100%', height:'900px',}}/>  
             
           </div>
         </div>
-        <div style={{backgroundColor:'palegoldenrod'}}>
+        <div style={{backgroundColor:'#51616f'}}>
             <div style={{marginTop:'100px',}}>
                 <h1>Popular in the catalog</h1>
             </div>
             <div style={{display:'flex',justifyContent:'center'}}>
-                <div style={{marginTop:'50px', marginLeft:'50px'}}>
-            <Img className={Yordam.img} src={Basseyn} alt="Basseyn" style={{border:'4px solid white',borderRadius:'5px'}}/>
-            <div  style={{marginTop:'10px',marginLeft:'50px'}}>
+                <div style={{marginTop:'50px', marginLeft:'15px'}}>
+            <Img className={Yordam.img} src={Basseyn} alt="Basseyn" style={{border:'2px solid white',borderRadius:'15px',width:'500px',height:'400px'}}/>
+            <div  style={{marginTop:'10px',marginLeft:'90px'}}>
                 <div style={{display:'flex'}}>
                 <h3>Home information on the pass  ↓</h3>
             <Link href={'/Like'} style={{textDecoration:'none',marginTop:"20px",marginLeft:"20px"}}>❤️</Link>
@@ -74,8 +75,8 @@ const HomePage:NextPage=()=>{
                 </div>  
                 </div>
                 <div style={{marginTop:'50px',marginLeft:'100px'}}>
-            <Img className={Yordam.img} src={Uy4} alt="Basseyn" style={{border:'4px solid white',borderRadius:'5px'}}/>
-            <div  style={{marginTop:'10px',marginLeft:'50px'}}> 
+            <Img className={Yordam.img} src={Uy4} alt="Basseyn" style={{border:'2px solid white',borderRadius:'15px',width:'500px',height:'400px'}}/>
+            <div  style={{marginTop:'10px',marginLeft:'90px'}}> 
             <div style={{display:'flex'}}>
             <h3>Home information on the pass  ↓</h3>
             <Link href={'/Like'} style={{textDecoration:'none',marginTop:"20px",marginLeft:"20px"}}>❤️</Link>
@@ -87,8 +88,8 @@ const HomePage:NextPage=()=>{
                 </div>  
                 </div>
                 <div style={{marginTop:'50px',marginLeft:'100px'}}>
-            <Img className={Yordam.img} src={UyCha} alt="Basseyn" style={{border:'4px solid white',borderRadius:'5px'}}/>
-            <div  style={{marginTop:'10px',marginLeft:'50px'}}>  
+            <Img className={Yordam.img} src={UyCha} alt="Basseyn" style={{border:'2px solid white',borderRadius:'15px',width:'500px', height:'400px'}}/>
+            <div  style={{marginTop:'10px',marginLeft:'90px'}}>  
             <div style={{display:'flex'}}>
             <h3>Home information on the pass  ↓</h3>
             <Link href={'/Like'} style={{textDecoration:'none',marginTop:"20px",marginLeft:"20px"}}>❤️</Link>
@@ -101,9 +102,9 @@ const HomePage:NextPage=()=>{
                 </div>
             </div>
             <div style={{display:'flex',justifyContent:'center'}}>
-                <div style={{marginTop:'150px', marginLeft:'50px'}}>
-            <Img className={Yordam.img} src={Uy6} alt="Basseyn" style={{border:'4px solid white',borderRadius:'5px'}}/>
-            <div  style={{marginTop:'10px',marginLeft:'50px'}}> 
+                <div style={{marginTop:'150px', marginLeft:'15px'}}>
+            <Img className={Yordam.img} src={Uy6} alt="Basseyn" style={{border:'2px solid white',borderRadius:'15px',width:'500px',height:'400px'}}/>
+            <div  style={{marginTop:'10px',marginLeft:'90px'}}> 
             <div style={{display:'flex'}}>
             <h3>Home information on the pass  ↓</h3>
             <Link href={'/Like'} style={{textDecoration:'none',marginTop:"20px",marginLeft:"20px"}}>❤️</Link>
@@ -115,8 +116,8 @@ const HomePage:NextPage=()=>{
                 </div>  
                 </div>
                 <div style={{marginTop:'150px',marginLeft:'100px'}}>
-            <Img className={Yordam.img1} src={Uy7} alt="Basseyn" style={{border:'4px solid white',borderRadius:'5px'}}/>
-            <div  style={{marginTop:'10px',marginLeft:'50px'}}> 
+            <Img className={Yordam.img1} src={Uy7} alt="Basseyn" style={{border:'2px solid white',borderRadius:'15px',width:'500px',height:'400px'}}/>
+            <div  style={{marginTop:'10px',marginLeft:'90px'}}> 
             <div style={{display:'flex'}}>
             <h3>Home information on the pass  ↓</h3>
             <Link href={'/Like'} style={{textDecoration:'none',marginTop:"20px",marginLeft:"20px"}}>❤️</Link>
@@ -127,22 +128,32 @@ const HomePage:NextPage=()=>{
 
                 </div>  
                 </div>
-                <div style={{marginTop:'150px',marginLeft:'100px'}}>
-            <Img className={Yordam.img2} src={Uy8} alt="Basseyn"/>
-            <div  style={{marginTop:'10px',marginLeft:'50px'}}>
-                <div style={{display:'flex'}}>
-                <h3 >Home information on the pass  ↓</h3>
-            <Link href={'/Like'} style={{textDecoration:'none',marginTop:"20px",marginLeft:"40px",color:'white'}}>❤️</Link>
-            </div>
-            <button style={{width:'150px', height:'50px',border:'3px solid blue',marginLeft:'80px',borderRadius:'5px',backgroundColor:'blue',marginTop:'20px'}}>
-               <Link href={'/Houses'} style={{color:'white', fontSize:'20px', textDecoration:'none'}}>Batch 😎</Link> 
-               </button>
-               
-                </div>  
+                <div style={{marginTop:'150px',marginLeft:'100px', }}>
+            <Img className={Yordam.img2} src={Uy8} alt="Basseyn" style={{border:'2px solid white',borderRadius:'15px',width:'500px',height:'400px'}}/>
+            <div  style={{marginTop:'10px',marginLeft:'90px'}}>
+                 <div style={{display:'flex'}}>
+                 <h3 >Home information on the pass  ↓</h3>
+             <Link href={'/Like'} style={{textDecoration:'none',marginTop:"20px",marginLeft:"40px",color:'white'}}>❤️</Link>
+             </div>
+ <button style={{width:'150px', height:'50px',border:'3px solid blue',marginLeft:'80px',borderRadius:'5px',backgroundColor:'blue',marginTop:'20px'}}>
+                <Link href={'/Houses'} style={{color:'white', fontSize:'20px', textDecoration:'none'}}>Batch 😎</Link> 
+                </button>
+                 </div>  
                 </div> 
+            </div>
+            <div style={{display:'flex',marginLeft:'180px',marginTop:'40px'}}>
+                <div>
+                    <Img src={Uy8} alt="Uy8" style={{width:'800px',height:'400px'}}/>
+                </div>
+                <div>
+                <Img  src={Uy8} alt="Uy8" style={{width:'800px',height:'400px'}}/>
+                </div>
             </div>
             <div style={{marginTop:'50px', marginLeft:'25px',width:'100%'}}>
             <Users />
+            </div>
+            <div>
+                <Tabl/>
             </div>
             <div> 
                  <div  style={{marginTop:'50px',display:'flex',justifyContent:'center'}}>
@@ -186,12 +197,9 @@ Show program</button></Link>
                 </div>
             </div>
             <div  style={{marginTop:'31px'}}>
-            <div> 
                 <div>
                     <Img src={UyBasseyn} alt="uy" style={{width:'100%',height:'300px'}}/>
-                </div>
-          
-          </div>                 
+                </div>              
             </div>
             </div>
 
