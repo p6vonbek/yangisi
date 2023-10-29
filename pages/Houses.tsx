@@ -12,11 +12,17 @@ import Uy6 from '../public/rasmlar/uy6.jpg'
 import Footer from '../public/rasmlar/footer 1400.jpg'
 import Img from 'next/image'
 import Yordam from '../styles/yordam.module.css'
+import Users from './Users'
 
 const About:NextPage=()=>{
     return(
-        <>
+        <div>
+        <div style={{marginTop:'-100px'}}>
         <Header/>
+        </div>
+        <div style={{height:'1000px', width:'100%',marginLeft:'35px'}}>
+            <Users/>
+        </div>
         <div>
             <div style={{border:'4px solid palegoldenrod',borderRadius:'10px',backgroundColor:'palegoldenrod',}}>
             <div >
@@ -155,7 +161,7 @@ const About:NextPage=()=>{
                     <Img src={Footer} alt="uy" style={{width:'100%',height:'300px'}}/>
                 </div>
         </div>
-        </>
+        </div>
     )
 }
 export default About

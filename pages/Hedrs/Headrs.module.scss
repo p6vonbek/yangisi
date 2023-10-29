@@ -2,16 +2,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 3px solid rgb(129, 218, 183);
-    border-radius: 4px;
-    background-color: rgb(129, 218, 183);
-    width:100%;
+    width:auto;
     height: 100px;
-    padding: 2px;
+  
     .link{ 
         text-decoration: none;
-        color: black;
+        color: rgb(204, 221, 241);
         font-size: 22px;
-         margin-right:80px;
+         margin-right:100px;
 }
 }

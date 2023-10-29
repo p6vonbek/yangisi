@@ -13,8 +13,10 @@ import Img from 'next/image'
 
 const Like:NextPage=()=>{
     return(
-        <> 
-        <Header/>
+        <div> 
+            <div style={{marginTop:'-100px'}}>
+            <Header/>
+        </div>
         <div>
         <div style={{border:'4px solid palegreen',borderRadius:'10px',backgroundColor:'palegreen',marginTop:'31px'}}>
             <div >
@@ -130,7 +132,7 @@ const Like:NextPage=()=>{
                     <Img src={Footer} alt="uy" style={{width:'100%',height:'300px'}}/>
                 </div>
         </div>
-        </>
+        </div>
     )
 
 }

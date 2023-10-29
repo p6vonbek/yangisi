@@ -1,12 +1,12 @@
 import Header from "./Header"
-import MainPage from "./MainPage"
+import HomePage from "./Home"
 
 export default function Home(){
   return (
-    <div style={{width:'100%',height:'auto'}}>
+    <div style={{marginTop:'-100px'}}>
      <Header />
   <div>
-<MainPage/>
+<HomePage/>
   </div>
   </div>
   ) 

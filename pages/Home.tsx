@@ -1,22 +1,20 @@
 
 import { NextPage } from "next";
-import Header from './Header';
 import Img from "next/image";
-import R from '../public/rasmlar/R.jpg';
+import R from '../public/rasmlar/bg.jpg';
 import Basseyn from '../public/rasmlar/uy5.jpg';
 import UyCha from '../public/rasmlar/uy3.jpg';
 import Uy4 from '../public/rasmlar/uy4.jpg';
 import Uy6 from '../public/rasmlar/uy6.jpg';
 import Uy7 from '../public/rasmlar/uy7.jpg';
 import Uy8 from '../public/rasmlar/uy8.jpg';
+import Uy10 from '../public/rasmlar/oshXona.jpg';
+import Uy11 from '../public/rasmlar/uybassey.jpg';
+import Uy12 from '../public/rasmlar/yotoqHona.jpg';
+import Uy9 from '../public/rasmlar/6. rent.jpg';
 import UyBasseyn from '../public/rasmlar/footer 1400.jpg';
 import Link from "next/link";
 import Yordam from '../styles/yordam.module.css'
-import Users from './Users'
-import Icon from './Burger/Icon'
-import Icon2 from './Burger/Icon2'
-import Icon3 from './Burger/Icon3'
-import Icon4 from './Burger/Icon4'
 import Tabl from './Tabl'
 
 
@@ -24,36 +22,27 @@ const HomePage:NextPage=()=>{
 
     return(
         <header>
-     <Header/>
-     <div style={{display:'flex',justifyContent:'space-around',marginTop:'30px',}}>
-     <Icon4/>
-     <Icon3/>
-     <Icon/>
-     <Icon2/>
-     </div>
      <div>
-    <div style={{display:'flex',justifyContent:'space-around',}}>
-            <div >
-                <div style={{textAlign:'center'}}>
-                    <h1 style={{position:'absolute',zIndex:12 ,marginTop:'300px',marginLeft:'-100px'}}>Welcome to our <br /> website</h1>
-                    <h2 style={{position:'absolute',zIndex:12,marginTop:'390px',marginLeft:'-130px'}}>We are happy with your visit</h2>
-                    <div style={{display:'flex',position:'absolute',zIndex:12,marginTop:'450px'}}>
-                        <div>
-            <Img className={Yordam.ber} src={Basseyn} alt="Basseyn" style={{border:'3px solid white',borderRadius:'3px',marginLeft:'-300px'}}/>
-                        </div>
-                        <div>
-            <Img className={Yordam.ber1} src={UyCha} alt="UyCha" style={{border:'3px solid white',borderRadius:'3px' ,marginLeft:'-50px'}}/>  
-                        </div>
-                        <div>
-            <Img className={Yordam.ber2} src={Uy4} alt="Uy4" style={{border:'3px solid white',borderRadius:'3px',marginLeft:'50px'}}/>  
-                        </div>
+           <div>
+            <Img className="R" src={R} alt="uy rasmi" style={{width:'100%', height:'900px',}}/>
+            <div style={{position:'absolute',zIndex:20,marginTop:'-700px',marginLeft:'200px',color:"white"}}>
+                <h1 style={{fontSize:60,}}>Аренда коттеджей и <br /> домов в Казани</h1>
+                <h3 style={{fontSize:30,}}>Найдите идеальный вариант сами <br /> или предоставьте это нам</h3>
+                <div style={{marginTop:'100px' ,display:'flex', textAlign:'center'}}>
+                    <div>
+                        <Img src={Uy11} alt="uy11"  style={{width:'160px',height:'120px',border:'3px',borderRadius:'5px'}}/>
+                        <div style={{fontSize:18,}}>С бассейном</div>
+                    </div>
+                    <div>
+                    <Img src={Uy10} alt="uy10"  style={{width:'160px',height:'120px',border:'3px',borderRadius:'5px',marginLeft:'25px'}}/>
+                        <div style={{fontSize:18,marginLeft:'25px'}}>Семейные и <br /> уютные</div>
+                    </div>
+                    <div>
+                    <Img src={Uy12} alt="uy12"  style={{width:'160px',height:'120px',border:'3px',borderRadius:'5px',marginLeft:'25px'}}/>
+                        <div style={{fontSize:18,marginLeft:'25px'}}>Хиты продаж</div>
                     </div>
                 </div>
-                </div>
-        </div>
-           <div>
-            <Img className="R" src={R} alt="uy rasmi" style={{width:'100%', height:'900px',}}/>  
-            
+            </div>
           </div>
         </div>
         <div style={{backgroundColor:'#51616f'}}>
@@ -145,12 +134,9 @@ const HomePage:NextPage=()=>{
                 <div>
                     <Img src={Uy8} alt="Uy8" style={{width:'800px',height:'400px'}}/>
                 </div>
-                <div>
-                <Img  src={Uy8} alt="Uy8" style={{width:'800px',height:'400px'}}/>
+                <div style={{width:'800px',height:'400px'}}>
+                <Img src={Uy8} alt="Uy8" style={{width:'800px',height:'400px'}}/>
                 </div>
-            </div>
-            <div style={{marginTop:'50px', marginLeft:'25px',width:'100%'}}>
-            <Users />
             </div>
             <div style={{display:'flex',justifyContent:'center'}}>
                 <div style={{marginTop:'150px', marginLeft:'15px'}}>
@@ -238,6 +224,7 @@ Show program</button></Link>
             </div>
             <div  style={{marginTop:'31px'}}>
                 <div>
+                    <Img src={Uy9} alt="uy9" style={{width:'100%',height:'600px',marginTop:'70px'}}/>
                     <Img src={UyBasseyn} alt="uy" style={{width:'100%',height:'300px'}}/>
                 </div>              
             </div>

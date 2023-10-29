@@ -6,7 +6,9 @@ import Link from "next/link";
 const  Sigin:NextPage=()=>{
 return(
     <header style={{backgroundColor:'blanchedalmond',width:'100%',height:'100%'}}>
-    <Header/>
+       <div>
+            <Header/>
+        </div>
         <div >
             <input placeholder="email"  type="text"  style={{fontSize:'35px',textAlign:"center", marginLeft:'700px',marginTop:'150px',boxShadow:'0px 1px 24px 4px'}}/><br />
             <input placeholder="password" type="text"  style={{fontSize:'35px',textAlign:"center", marginLeft:'700px',marginTop:'50px',boxShadow:'0px 1px 24px 4px'}}/><br />
