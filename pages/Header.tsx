@@ -15,11 +15,11 @@ interface Props {
       <AppBar component="nav">
         <Toolbar>
         <nav style={{display:'flex',}}>
-            <Link style={{fontSize:'30px',marginLeft:'150px'}} className={Styles.link}  href={'/'}>DOMIKTUT.RU </Link>
-            <Link className={Styles.link}  href={'/Houses'}>Mockba</Link>
-            <Link className={Styles.link}  href={'/Cottages'}>Каталог</Link>
-            <Link className={Styles.link}  href={'/HomesInfo'}>Частые вопросы</Link>
-            <Link className={Styles.link}  href={'/Like'}>Сотрудничество</Link>
+            <Link style={{fontSize:'30px',marginLeft:'150px'}} className={Styles.link}  href={'/'}>Home</Link>
+            <Link className={Styles.link}  href={'/Houses'}>Houses</Link>
+            <Link className={Styles.link}  href={'/Cottages'}>Cottages</Link>
+            <Link className={Styles.link}  href={'/HomesInfo'}>HomeInfo</Link>
+            <Link className={Styles.link}  href={'/Like'}>Like</Link>
             <Link className={Styles.link}  href={'./Login/Login'}>Login</Link>
             <Burger/>
         </nav>

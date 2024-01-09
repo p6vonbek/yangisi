@@ -21,7 +21,7 @@ import Tabl from './Tabl'
 const HomePage:NextPage=()=>{
 
     return(
-        <header>
+        <header style={{margin:0,padding:0,boxShadow:'0'}}>
      <div>
            <div>
             <Img className="R" src={R} alt="uy rasmi" style={{width:'100%', height:'900px',}}/>
@@ -51,7 +51,7 @@ const HomePage:NextPage=()=>{
             </div>
             <div style={{display:'flex',justifyContent:'center'}}>
                 <div style={{marginTop:'50px', marginLeft:'15px'}}>
-            <Img className={Yordam.img} src={Basseyn} alt="Basseyn" style={{border:'2px solid white',borderRadius:'15px',width:'500px',height:'400px'}}/>
+            <Img className={Yordam.img} src={Basseyn} alt="Basseyn" style={{border:'2px solid white',borderRadius:'15px',width:'400px',height:'400px'}}/>
             <div  style={{marginTop:'10px',marginLeft:'90px'}}>
                 <div style={{display:'flex'}}>
                 <h3>Home information on the pass  ↓</h3>
@@ -64,7 +64,7 @@ const HomePage:NextPage=()=>{
                 </div>  
                 </div>
                 <div style={{marginTop:'50px',marginLeft:'100px'}}>
-            <Img className={Yordam.img} src={Uy4} alt="Basseyn" style={{border:'2px solid white',borderRadius:'15px',width:'500px',height:'400px'}}/>
+            <Img className={Yordam.img} src={Uy4} alt="Basseyn" style={{border:'2px solid white',borderRadius:'15px',width:'400px',height:'400px'}}/>
             <div  style={{marginTop:'10px',marginLeft:'90px'}}> 
             <div style={{display:'flex'}}>
             <h3>Home information on the pass  ↓</h3>
@@ -77,7 +77,7 @@ const HomePage:NextPage=()=>{
                 </div>  
                 </div>
                 <div style={{marginTop:'50px',marginLeft:'100px'}}>
-            <Img className={Yordam.img} src={UyCha} alt="Basseyn" style={{border:'2px solid white',borderRadius:'15px',width:'500px', height:'400px'}}/>
+            <Img className={Yordam.img} src={UyCha} alt="Basseyn" style={{border:'2px solid white',borderRadius:'15px',width:'400px', height:'400px'}}/>
             <div  style={{marginTop:'10px',marginLeft:'90px'}}>  
             <div style={{display:'flex'}}>
             <h3>Home information on the pass  ↓</h3>
@@ -92,7 +92,7 @@ const HomePage:NextPage=()=>{
             </div>
             <div style={{display:'flex',justifyContent:'center'}}>
                 <div style={{marginTop:'150px', marginLeft:'15px'}}>
-            <Img className={Yordam.img} src={Uy6} alt="Basseyn" style={{border:'2px solid white',borderRadius:'15px',width:'500px',height:'400px'}}/>
+            <Img className={Yordam.img} src={Uy6} alt="Basseyn" style={{border:'2px solid white',borderRadius:'15px',width:'400px',height:'400px'}}/>
             <div  style={{marginTop:'10px',marginLeft:'90px'}}> 
             <div style={{display:'flex'}}>
             <h3>Home information on the pass  ↓</h3>
@@ -105,7 +105,7 @@ const HomePage:NextPage=()=>{
                 </div>  
                 </div>
                 <div style={{marginTop:'150px',marginLeft:'100px'}}>
-            <Img className={Yordam.img1} src={Uy7} alt="Basseyn" style={{border:'2px solid white',borderRadius:'15px',width:'500px',height:'400px'}}/>
+            <Img className={Yordam.img1} src={Uy7} alt="Basseyn" style={{border:'2px solid white',borderRadius:'15px',width:'400px',height:'400px'}}/>
             <div  style={{marginTop:'10px',marginLeft:'90px'}}> 
             <div style={{display:'flex'}}>
             <h3>Home information on the pass  ↓</h3>
@@ -118,7 +118,7 @@ const HomePage:NextPage=()=>{
                 </div>  
                 </div>
                 <div style={{marginTop:'150px',marginLeft:'100px', }}>
-            <Img className={Yordam.img2} src={Uy8} alt="Basseyn" style={{border:'2px solid white',borderRadius:'15px',width:'500px',height:'400px'}}/>
+            <Img className={Yordam.img2} src={Uy8} alt="Basseyn" style={{border:'2px solid white',borderRadius:'15px',width:'400px',height:'400px'}}/>
             <div  style={{marginTop:'10px',marginLeft:'90px'}}>
                  <div style={{display:'flex'}}>
                  <h3 >Home information on the pass  ↓</h3>
@@ -132,15 +132,15 @@ const HomePage:NextPage=()=>{
             </div>
             <div style={{display:'flex',marginLeft:'180px',marginTop:'40px'}}>
                 <div>
-                    <Img src={Uy8} alt="Uy8" style={{width:'800px',height:'400px'}}/>
+                    <Img src={Uy8} alt="Uy8" style={{width:'600px',height:'400px'}}/>
                 </div>
                 <div style={{width:'800px',height:'400px'}}>
-                <Img src={Uy8} alt="Uy8" style={{width:'800px',height:'400px'}}/>
+                <Img src={Uy8} alt="Uy8" style={{width:'600px',height:'400px'}}/>
                 </div>
             </div>
             <div style={{display:'flex',justifyContent:'center'}}>
                 <div style={{marginTop:'150px', marginLeft:'15px'}}>
-            <Img className={Yordam.img} src={Uy6} alt="Basseyn" style={{border:'2px solid white',borderRadius:'15px',width:'500px',height:'400px'}}/>
+            <Img className={Yordam.img} src={Uy6} alt="Basseyn" style={{border:'2px solid white',borderRadius:'15px',width:'400px',height:'400px'}}/>
             <div  style={{marginTop:'10px',marginLeft:'90px'}}> 
             <div style={{display:'flex'}}>
             <h3>Home information on the pass  ↓</h3>
@@ -153,7 +153,7 @@ const HomePage:NextPage=()=>{
                 </div>  
                 </div>
                 <div style={{marginTop:'150px',marginLeft:'100px'}}>
-            <Img className={Yordam.img1} src={Uy7} alt="Basseyn" style={{border:'2px solid white',borderRadius:'15px',width:'500px',height:'400px'}}/>
+            <Img className={Yordam.img1} src={Uy7} alt="Basseyn" style={{border:'2px solid white',borderRadius:'15px',width:'400px',height:'400px'}}/>
             <div  style={{marginTop:'10px',marginLeft:'90px'}}> 
             <div style={{display:'flex'}}>
             <h3>Home information on the pass  ↓</h3>
@@ -166,7 +166,7 @@ const HomePage:NextPage=()=>{
                 </div>  
                 </div>
                 <div style={{marginTop:'150px',marginLeft:'100px', }}>
-            <Img className={Yordam.img2} src={Uy8} alt="Basseyn" style={{border:'2px solid white',borderRadius:'15px',width:'500px',height:'400px'}}/>
+            <Img className={Yordam.img2} src={Uy8} alt="Basseyn" style={{border:'2px solid white',borderRadius:'15px',width:'400px',height:'400px'}}/>
             <div  style={{marginTop:'10px',marginLeft:'90px'}}>
                  <div style={{display:'flex'}}>
                  <h3 >Home information on the pass  ↓</h3>

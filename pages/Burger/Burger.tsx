@@ -9,11 +9,11 @@ import Link from "next/link";
 
 
 const options = [
-  <Link style={{marginLeft:'15px',marginTop:'20px', textDecoration:'none', fontSize:'20px'}} href={'/'}>Mockba</Link>,
-  <Link style={{marginLeft:'15px',marginTop:'40px', textDecoration:'none', fontSize:'20px'}} href={'/Houses'}>Частые вопросы</Link>,
-  <Link style={{marginLeft:'15px',marginTop:'50px', textDecoration:'none', fontSize:'20px'}} href={'/Cottages'}>Сотрудничество</Link>,
-  <Link style={{marginLeft:'15px',marginTop:'60px', textDecoration:'none', fontSize:'20px'}} href={'/HomesInfo'}>(+7)988 323 10 40</Link>,
-  <Link style={{marginLeft:'15px',marginTop:'70px', textDecoration:'none', fontSize:'20px'}} href={'/Like'}>Каталог</Link>,
+  <Link style={{marginLeft:'15px',marginTop:'20px', textDecoration:'none', fontSize:'20px'}} href={'/'}>Home</Link>,
+  <Link style={{marginLeft:'15px',marginTop:'40px', textDecoration:'none', fontSize:'20px'}} href={'/Houses'}>Houses</Link>,
+  <Link style={{marginLeft:'15px',marginTop:'50px', textDecoration:'none', fontSize:'20px'}} href={'/Cottages'}>Cottages</Link>,
+  <Link style={{marginLeft:'15px',marginTop:'60px', textDecoration:'none', fontSize:'20px'}} href={'/HomesInfo'}>HomesInfo</Link>,
+  <Link style={{marginLeft:'15px',marginTop:'70px', textDecoration:'none', fontSize:'20px'}} href={'/Like'}>Like</Link>,
   <Link style={{marginLeft:'15px',marginTop:'80px', textDecoration:'none', fontSize:'20px'}} href={'./Login/Login'}>Login</Link>,
 
 ];
