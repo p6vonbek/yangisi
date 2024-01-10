@@ -21,7 +21,7 @@ import Tabl from './Tabl'
 const HomePage:NextPage=()=>{
 
     return(
-        <header style={{margin:0,padding:0,boxShadow:'0'}}>
+        <header>
      <div>
            <div>
             <Img className="R" src={R} alt="uy rasmi" style={{width:'100%', height:'900px',}}/>
@@ -57,7 +57,7 @@ const HomePage:NextPage=()=>{
                 <h3>Home information on the pass  ↓</h3>
             <Link href={'/Like'} style={{textDecoration:'none',marginTop:"20px",marginLeft:"20px"}}>❤️</Link>
             </div>
-            <button style={{width:'150px', height:'50px',border:'3px solid blue',marginLeft:'80px',borderRadius:'5px',backgroundColor:'blue',marginTop:'20px'}}>
+            <button style={{width:'150px', height:'50px',border:'3px solid blue',marginLeft:'30px',borderRadius:'5px',backgroundColor:'blue',marginTop:'20px'}}>
                <Link href={'/Houses'} style={{color:'white', fontSize:'20px', textDecoration:'none'}}>Batch   😎</Link> 
                </button>
 
@@ -70,7 +70,7 @@ const HomePage:NextPage=()=>{
             <h3>Home information on the pass  ↓</h3>
             <Link href={'/Like'} style={{textDecoration:'none',marginTop:"20px",marginLeft:"20px"}}>❤️</Link>
             </div> 
-            <button style={{width:'150px', height:'50px',border:'3px solid blue',marginLeft:'80px',borderRadius:'5px',backgroundColor:'blue',marginTop:'20px'}}>
+            <button style={{width:'150px', height:'50px',border:'3px solid blue',marginLeft:'30px',borderRadius:'5px',backgroundColor:'blue',marginTop:'20px'}}>
                <Link href={'/Houses'} style={{color:'white', fontSize:'20px', textDecoration:'none'}}>Batch   😎</Link> 
                </button>
 
@@ -83,7 +83,7 @@ const HomePage:NextPage=()=>{
             <h3>Home information on the pass  ↓</h3>
             <Link href={'/Like'} style={{textDecoration:'none',marginTop:"20px",marginLeft:"20px"}}>❤️</Link>
             </div>
-            <button style={{width:'150px', height:'50px',border:'3px solid blue',marginLeft:'80px',borderRadius:'5px',backgroundColor:'blue',marginTop:'20px'}}>
+            <button style={{width:'150px', height:'50px',border:'3px solid blue',marginLeft:'40px',borderRadius:'5px',backgroundColor:'blue',marginTop:'20px'}}>
                <Link href={'/Houses'} style={{color:'white', fontSize:'20px', textDecoration:'none'}}>Batch  😎</Link> 
                </button>
 
@@ -98,7 +98,7 @@ const HomePage:NextPage=()=>{
             <h3>Home information on the pass  ↓</h3>
             <Link href={'/Like'} style={{textDecoration:'none',marginTop:"20px",marginLeft:"20px"}}>❤️</Link>
             </div> 
-            <button style={{width:'150px', height:'50px',border:'3px solid blue',marginLeft:'80px',borderRadius:'5px',backgroundColor:'blue',marginTop:'20px'}}>
+            <button style={{width:'150px', height:'50px',border:'3px solid blue',marginLeft:'30px',borderRadius:'5px',backgroundColor:'blue',marginTop:'20px'}}>
                <Link href={'/Houses'} style={{color:'white', fontSize:'20px', textDecoration:'none'}}>Batch  😎</Link> 
                </button>
 
@@ -111,7 +111,7 @@ const HomePage:NextPage=()=>{
             <h3>Home information on the pass  ↓</h3>
             <Link href={'/Like'} style={{textDecoration:'none',marginTop:"20px",marginLeft:"20px"}}>❤️</Link>
             </div> 
-            <button style={{width:'150px', height:'50px',border:'3px solid blue',marginLeft:'80px',borderRadius:'5px',backgroundColor:'blue',marginTop:'20px'}}>
+            <button style={{width:'150px', height:'50px',border:'3px solid blue',marginLeft:'30px',borderRadius:'5px',backgroundColor:'blue',marginTop:'20px'}}>
                <Link href={'/Houses'} style={{color:'white', fontSize:'20px', textDecoration:'none'}}>Batch  😎</Link> 
                </button>
 
@@ -124,13 +124,13 @@ const HomePage:NextPage=()=>{
                  <h3 >Home information on the pass  ↓</h3>
              <Link href={'/Like'} style={{textDecoration:'none',marginTop:"20px",marginLeft:"40px",color:'white'}}>❤️</Link>
              </div>
- <button style={{width:'150px', height:'50px',border:'3px solid blue',marginLeft:'80px',borderRadius:'5px',backgroundColor:'blue',marginTop:'20px'}}>
+ <button style={{width:'150px', height:'50px',border:'3px solid blue',marginLeft:'40px',borderRadius:'5px',backgroundColor:'blue',marginTop:'20px'}}>
                 <Link href={'/Houses'} style={{color:'white', fontSize:'20px', textDecoration:'none'}}>Batch 😎</Link> 
                 </button>
                  </div>  
                 </div> 
             </div>
-            <div style={{display:'flex',marginLeft:'180px',marginTop:'40px'}}>
+            <div style={{display:'flex',marginLeft:'350px',marginTop:'40px'}}>
                 <div>
                     <Img src={Uy8} alt="Uy8" style={{width:'600px',height:'400px'}}/>
                 </div>
@@ -146,7 +146,7 @@ const HomePage:NextPage=()=>{
             <h3>Home information on the pass  ↓</h3>
             <Link href={'/Like'} style={{textDecoration:'none',marginTop:"20px",marginLeft:"20px"}}>❤️</Link>
             </div> 
-            <button style={{width:'150px', height:'50px',border:'3px solid blue',marginLeft:'80px',borderRadius:'5px',backgroundColor:'blue',marginTop:'20px'}}>
+            <button style={{width:'150px', height:'50px',border:'3px solid blue',marginLeft:'30px',borderRadius:'5px',backgroundColor:'blue',marginTop:'20px'}}>
                <Link href={'/Houses'} style={{color:'white', fontSize:'20px', textDecoration:'none'}}>Batch  😎</Link> 
                </button>
 
@@ -159,7 +159,7 @@ const HomePage:NextPage=()=>{
             <h3>Home information on the pass  ↓</h3>
             <Link href={'/Like'} style={{textDecoration:'none',marginTop:"20px",marginLeft:"20px"}}>❤️</Link>
             </div> 
-            <button style={{width:'150px', height:'50px',border:'3px solid blue',marginLeft:'80px',borderRadius:'5px',backgroundColor:'blue',marginTop:'20px'}}>
+            <button style={{width:'150px', height:'50px',border:'3px solid blue',marginLeft:'30px',borderRadius:'5px',backgroundColor:'blue',marginTop:'20px'}}>
                <Link href={'/Houses'} style={{color:'white', fontSize:'20px', textDecoration:'none'}}>Batch  😎</Link> 
                </button>
 
@@ -172,7 +172,7 @@ const HomePage:NextPage=()=>{
                  <h3 >Home information on the pass  ↓</h3>
              <Link href={'/Like'} style={{textDecoration:'none',marginTop:"20px",marginLeft:"40px",color:'white'}}>❤️</Link>
              </div>
- <button style={{width:'150px', height:'50px',border:'3px solid blue',marginLeft:'80px',borderRadius:'5px',backgroundColor:'blue',marginTop:'20px'}}>
+ <button style={{width:'150px', height:'50px',border:'3px solid blue',marginLeft:'40px',borderRadius:'5px',backgroundColor:'blue',marginTop:'20px'}}>
                 <Link href={'/Houses'} style={{color:'white', fontSize:'20px', textDecoration:'none'}}>Batch 😎</Link> 
                 </button>
                  </div>  
